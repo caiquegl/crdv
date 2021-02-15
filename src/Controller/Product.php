@@ -1,6 +1,5 @@
 <?php
-echo "CHAMDO!!";
-require_once(dirname(__DIR__,2).'/vendor/autoload.php');
+require_once('../vendor/autoload.php');
 
 use CRDV\Model\Database\MySQLConnection;
 use CRDV\Model\ProductFunctions\ProductDAOMySQL;

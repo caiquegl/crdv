@@ -2,7 +2,7 @@
 
 namespace CRDV\Model\Database;
 
-require dirname(__DIR__,3)."/vendor/autoload.php";
+require "../vendor/autoload.php";
 
 use josegonzalez\Dotenv\Loader as ENV;
 
