@@ -1,0 +1,134 @@
+body{
+  padding: 0%;
+  margin: 0%;
+  background-color: #e5e5e0;
+}
+
+a{
+  text-decoration: none;
+  color: #641811;
+}
+
+#menu{
+  background-color: green;
+  text-align: center;
+}
+
+
+
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #b30000;
+}
+
+
+#corpo_header{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 4%;
+  padding: 20px;
+  background-color: #641811;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+}
+
+#camera_fundo{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 9%;
+  margin-left: 5%;
+  margin-right: 15%;
+}
+
+#camera{
+  width: 100%;
+  margin-top: 8%;
+}
+
+/*
+.item{
+  margin-right: 30%;
+  position: relative;
+  margin-top: 7%;
+  font-size: 30px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+*/
+
+#titulo{
+  color: #641811;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 50px;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 0.5%;
+}
+
+#corpo_main{
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid #641811;
+}
+
+.campo_de_texto{
+  width: 60%;
+  height: 7%;
+  margin-left: 10%;
+  margin-top: 1.5%;
+  position: absolute;
+  border: 1px solid #641811;
+  padding-left: 10px;
+}
+
+
+h1,h2,h3,h4,h5{
+  color: #641811;
+}

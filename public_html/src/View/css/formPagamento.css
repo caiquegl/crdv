@@ -1,0 +1,70 @@
+.formPay{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.formPay label{
+    color: #433E40;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.formPay input{
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.formPay select{
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.formH3{
+    color: #433E40;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.formSmall{
+    width: 60px;
+}
+.formButton{
+    height: 45px;
+    border: none;
+    background-color: #649615;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.containerForm{
+    border: black 2px solid;
+    padding: 60px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 10px 10px teal;
+    margin-bottom: 40px;
+}
+.input-background {
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+
+  .listOl{
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+      font-size: 16px;
+      letter-spacing: 2px;
+  }
+  .listOl li + li{
+    margin-top: 15px;
+  }

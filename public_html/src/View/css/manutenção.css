@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 245, 245);
+}
+
+            /*  Header */
+
+
+.container {
+    width: auto;
+    height: auto;
+/*    background-color: #b6ff00;*/
+	padding-left:  0px;
+	padding-right: 0px;
+
+}
+
+.busca{
+    height: 60px;
+    background-color: white;
+    margin-top: 9px;
+    margin-bottom: 3.5%;
+    margin-left: 35%;
+    display: block;
+    background-color: rgb(245, 245, 245);
+}
+input[type=text] {
+  border: 2px solid green;
+  border-radius: 4px;
+  width: 400px;
+  /*background-image: url('imagens/lupa.png');*/
+  background-repeat: no-repeat;
+  margin-top: 2.2%; 
+  padding: 10pX;
+  resize: vertical;
+}
+
+.header{
+    height: 40px;
+    margin-left: 25%;
+    margin-bottom: 1.5%;
+    margin-top: 0px;
+    display: flex;
+}
+
+.menu_header {
+
+/*    background-color: #4800ff;*/
+    margin-right: 25px;
+    margin-top: 20px;
+    color: #000000;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.menu_header:hover{
+    opacity: 1;
+}
+
+.carrinho{
+    margin-left: 10%;
+    margin-top: -0.4%;
+    margin-right: 0px;
+    width: 17%;
+
+}
+
+
+
+.user{
+    margin-left: 77%;
+    margin-top: -8.2%;
+    margin-right: 0px;
+    width: 19%;
+}
+
+#footer{
+    clear: left; 
+    margin-top: 0%;
+    border-top: 3px solid black;
+    background-color: black;
+}
+
+.siga{
+    margin-top: 0%;
+    text-align: center;
+    margin-right: 2.2%;
+    font-size: 23px;
+    font-style: bold;
+    color: white;
+}
+
+#redes{
+    display: flex; 
+    margin-left: 43%;
+}
+
+.icon{
+    margin-top: 0%;
+    margin-right: 2%;
+    width: 6%;
+    margin-bottom: 3%;
+    height: 6%;
+}
+
+.contato{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+#telefone{
+    margin-right: 1%;
+    margin-top: -0.7%;
+    margin-left: 27%;
+    width: 3%;
+    height: 3%;  
+}
+
+#whats{
+    margin-right: 1%;
+    margin-top: -0.8%;
+    margin-left: 1%;
+    width: 3%;
+    height: 3%;
+}
+
+#outlook{
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: -0.5%;
+    width: 2.6%;
+    height: 2.6%;
+}
+
+.contatostext{
+    color: white;
+    margin-bottom: 1%;
+}
+
+#endereco{
+    margin-top: 2%;
+    display: flex;
+}
+
+#adress{
+    margin-right: 1%;
+    margin-top: -0.4%;
+    margin-left: 2%;
+    width: 2%;
+    height: 2%; 
+}
+
+#relogio{
+    margin-right: 1%;
+    margin-top: -0.4%;
+    margin-left: 2%;
+    width: 2%;
+    height: 2%; 
+}
+
+#pagamentos{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#iconespagamento{
+    width: 20%;
+    margin-left: 39%;
+}
+
+#formapag{
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 2.2%;
+    font-size: 23px;
+    font-style: bold;
+    color: white;
+}
+
+
+
+
+
+

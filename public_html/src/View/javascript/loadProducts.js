@@ -1,0 +1,3 @@
+var produtos;
+
+getAllProducts(produtos);

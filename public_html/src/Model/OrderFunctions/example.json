@@ -1,0 +1,40 @@
+{
+    "receiver" : {
+        "name" : "Hugo Henrique S. A. C.",
+        "email" : "mxhugoxm@gmail.com",
+        "cpf" : "000.000.000-00",
+        "cnpj" : null,
+        "telephone" : "(79) 9 9833-7417",
+        "residentialPhone" : null
+    },
+    "address" : {
+        "cep":"49160-000",
+        "rua":"Avenida B",
+        "bairro":"Conjunto João Alves",
+        "cidade":"Nossa Senhora do Socorro",
+        "uf":"SE",
+        "numero":"26"
+    },
+    "products" : [
+        {
+            "id" : "1",
+            "name" : "Smart Watch Samsung",
+            "sku" : "SKU-123",
+            "price" :  "42.99",
+            "amount" : "1"
+        },
+        {
+            "id" : "2",
+            "name" : "Smart TV Samsung",
+            "sku" : "SKU-133",
+            "price" :  "4199.99",
+            "amount" : "1"
+        }
+    ],
+    "payment": {
+            "paymentForm" : "credit",
+            "paymentSdk": "mercadopago",
+            "sendPrice" : "170.00",
+            "total" : "4243.00"
+    }
+}
