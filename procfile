@@ -1,1 +1,1 @@
-web: vendor/bin/php-parse src/View/html/index.php
+web: vendor/bin/php-parse src/View/html/
