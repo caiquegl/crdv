@@ -24,10 +24,10 @@ abstract class DBCredentials {
 
     public static function getCredentials(){
         $env = self::setEnviroments();    
-        self::$host = "162.241.203.66";
-        self::$user = "crdvco68_host";
-        self::$pass = "mdpxxt199410";
-        self::$dbName = "crdvco68_crdv";
+        self::$host = "ao9moanwus0rjiex.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        self::$user = "ebgkuji0hwhxlcro";
+        self::$pass = "nl5vbvndn1uztimm";
+        self::$dbName = "z1a53ktwv8mz58re";
         self::$port = 3306;
         self::$charset = "utf8";
 
