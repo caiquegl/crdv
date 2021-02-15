@@ -1,2 +1,2 @@
 <?php
-include './src/View/html/index.php';
+header("Location: ./src/View/html/index.php");
