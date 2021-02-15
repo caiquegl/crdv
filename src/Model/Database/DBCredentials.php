@@ -24,12 +24,12 @@ abstract class DBCredentials {
 
     public static function getCredentials(){
         $env = self::setEnviroments();    
-        self::$host = $env["DB_HOST"];
-        self::$user = $env["DB_USER"];
-        self::$pass = $env["DB_PASS"];
-        self::$dbName = $env["DB_NAME"];
-        self::$port = $env["DB_PORT"];
-        self::$charset = $env["DB_CHARSET"];
+        self::$host = "162.241.203.66";
+        self::$user = "crdvco68_host";
+        self::$pass = "mdpxxt199410";
+        self::$dbName = "crdvco68_crdv";
+        self::$port = "3306";
+        self::$charset = "utf8";
 
     }
 
