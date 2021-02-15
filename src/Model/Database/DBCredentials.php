@@ -28,7 +28,7 @@ abstract class DBCredentials {
         self::$user = "crdvco68_host";
         self::$pass = "mdpxxt199410";
         self::$dbName = "crdvco68_crdv";
-        self::$port = "3306";
+        self::$port = 3306;
         self::$charset = "utf8";
 
     }
